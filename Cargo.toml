@@ -1,0 +1,21 @@
+[package]
+name = "pi-animation"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "pi-anim"
+path = "src/main-anim.rs"
+
+[[bin]]
+name = "pi-anim-sound"
+path = "src/main-anim-sound.rs"
+
+[[bin]]
+name = "pi-cli"
+path = "src/main-cli.rs"
+
+[dependencies]
+aatree = "0.2.2"
+eq-float = "0.1.0"
+ggez = "0.9.3"
